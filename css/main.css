@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    opacity: .8;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.header-flex{
+    text-align: center;
+    margin-top: 20px;
+}
+.header-flex hr{
+    margin-top: 20px;
+}
+.objective-flex{
+    text-align: center;
+    margin-top: 20px;
+}
+.objective-flex p{
+    margin-top: 20px;
+}
+.quli-flex{
+    text-align: center;
+}
+.quli-flex h2,li{
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+.skill-flex{
+    margin-top: 50px;
+    text-align: center;
+}
+.skill-flex li{
+    list-style-type: none;
+}
+
+.personal-flex{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.declare-flex{
+    margin-top: 50px;
+    text-align: center;
+}
+.footer-flex{
+    display: flex;
+    margin-top: 30px;
+}
+.declare-flex p{
+    margin-top: 20px;
+}
+/* .foot2{
+    margin-left: 800px;
+} */
+
+
+@media(min-width:100%){
+    .container{
+        width:100%;
+        margin:auto;
+    }
+}
+@media(min-width:768px){
+    .container{
+        width:750px;
+        margin:auto;
+    }
+}
+@media(min-width:1000px){
+    .container{
+        width:970px;
+        margin:auto;
+        
+    }
+   .obj p{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .footer-flex p{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .personal-info p{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .quli li{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+  .skills li{
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .skills{
+    border-left: solid 1px rgb(167, 157, 157);
+  }
+} 
